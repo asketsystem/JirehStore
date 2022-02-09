@@ -3,9 +3,12 @@ import { StyleSheet, Text, View } from "react-native";
 
 // View -> UIView
 export default function App() {
+  let x = 1;
+  console.log("App executed");
+
   return (
     <View style={styles.container}>
-      <Text>Hello World!</Text>
+      <Text>Hello React Native!</Text>
       <StatusBar style="auto" />
     </View>
   );
